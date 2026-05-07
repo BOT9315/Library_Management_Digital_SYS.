@@ -6,4 +6,4 @@ def add():
     renumber_books()
     print(f"Book added successfully: {book_name}")
     for idx, value in enumerate(books.values(), start=1):
-        print(f"{idx}. {value}")
+        print(f"{idx}.{value}")
